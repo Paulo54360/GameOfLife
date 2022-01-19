@@ -1,0 +1,36 @@
+
+.Board { /* Création et cadriage du tableau */
+  position: relative;
+  margin: 0 auto;
+  background-color: #ffffff;
+  background-image: linear-gradient(#CCC 1px, transparent 1px), /* cadriage du tableau */
+    linear-gradient(90deg, #CCC 1px, transparent 1px);
+}
+.Cell { /* Cellules  */
+  background: #333;
+  position: absolute;
+}
+
+input{
+  width: 35px;
+  margin: 5px;
+  background-color: transparent;
+  border-color: #1976d2;
+  color: white;
+}
+.button{
+  margin:5px!important;
+}
+.controls {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px auto
+
+}
+
+.button {
+  margin-left: 12px;
+  cursor: pointer;
+}
